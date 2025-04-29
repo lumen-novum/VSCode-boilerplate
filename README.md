@@ -28,3 +28,10 @@ These snippets are best used with entire C++ projects. If you are looking to deb
 14. Open the Command Palette again.
 15. `CMake: Debug`
 16. If your program debugs without issue, try debugging the program through VS Code to make sure everything works.
+
+## Common Issues
+
+### GDB Not Found
+1. Make sure you have GDB installed. `brew install gdb`
+2. Code Sign your GDB if on MacOS. Use ChatGPT to help you with this.
+3. Close and reopen VSCode after installing GDB.
